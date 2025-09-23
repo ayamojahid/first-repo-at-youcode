@@ -1,14 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
-    int M,I,P;
-    printf("Veuillez entrez le montant du pret:");
-    scanf("%d",&M);
+    float m, t, p, tm, s;
 
-     printf("Entrez le taux d'interet:");
-    scanf("%d",&I);
+    printf("Montant: ");
+    scanf("%f", &m);
 
-     printf("Veuillez entrez le paiement mensuel:");
-    scanf("%d",&P);
- return 0;
-    
+    printf("Taux: ");
+    scanf("%f", &t);
+
+    printf("Paiement: ");
+    scanf("%f", &p);
+
+    tm = t / 100.0f / 12.0f;
+    s = m;
+
+    s = s + s * tm - p;
+    printf("Solde apres 1er paiement: %.2f\n", s);
+
+    s = s + s * tm - p;
+    printf("Solde apres 2eme paiement: %.2f\n", s);
+
+    s = s + s * tm - p;
+    printf("Solde apres 3eme paiement: %.2f\n", s);
+
+    printf("\nAppuyez sur Entrer pour quitter...");
+    getchar(); // vide le buffer de scanf
+    getchar(); // attend un appui touche
+    return 0;
 }
