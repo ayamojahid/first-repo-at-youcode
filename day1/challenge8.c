@@ -1,31 +1,39 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
-    float m, t, p, tm, s;
+    float m;
+    float t;
+    float p;
+    float nt;
+    float solde;
 
-    printf("Montant: ");
-    scanf("%f", &m);
+printf("Veuillez entrer le montant du pret: ");
+scanf("%f",&m);
 
-    printf("Taux: ");
-    scanf("%f", &t);
+printf("veuillez entrer le taux d'interet: ");
+scanf("%f",&t);
 
-    printf("Paiement: ");
-    scanf("%f", &p);
 
-    tm = t / 100.0f / 12.0f;
-    s = m;
+printf("veuillez entre le paiement mensuel: ");
+scanf("%f",&p);
 
-    s = s + s * tm - p;
-    printf("Solde apres 1er paiement: %.2f\n", s);
 
-    s = s + s * tm - p;
-    printf("Solde apres 2eme paiement: %.2f\n", s);
+nt = t / 100.0f / 12.0f;
 
-    s = s + s * tm - p;
-    printf("Solde apres 3eme paiement: %.2f\n", s);
 
-    printf("\n");
-  
-    return 0;
+solde=m;
+solde=solde+solde*nt-p;
+
+printf("Solde restant après le premier paiement : %.2f\n", solde);
+
+solde=solde+solde*nt-p;
+printf("Solde restant après le deuxième paiement : %.2f\n", solde);
+
+solde=solde+solde*nt-p;
+printf("Solde restant après le troisième paiement : %.2f\n", solde);
+
+
+return 0;
+
+
+
 }
-
