@@ -24,7 +24,7 @@ int main() {
     s = s + s * tm - p;
     printf("Solde apres 3eme paiement: %.2f\n", s);
 
-    printf("\nAppuyez sur Entrer pour quitter...");
+    printf("\n");
   
     return 0;
 }
