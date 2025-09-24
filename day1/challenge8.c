@@ -25,7 +25,7 @@ int main() {
     printf("Solde apres 3eme paiement: %.2f\n", s);
 
     printf("\nAppuyez sur Entrer pour quitter...");
-    getchar(); // vide le buffer de scanf
-    getchar(); // attend un appui touche
+  
     return 0;
 }
+
