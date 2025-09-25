@@ -1,0 +1,69 @@
+Chapitre I
+
+Projets de programmation
+1. Écrivez un programme qui utilise printf pour afficher l'image suivante à l'écran :
+
+1. *
+2. *
+3. *
+4. * *
+5. * *
+6. *
+
+2. Écrivez un programme qui calcule le volume d'une sphère de 10 mètres de rayon,
+en utilisant la formule v = 4/3πr3 . Écrivez la fraction 4/3 comme 4.0f/3.0f.
+(Essayez de l'écrire comme 4/3. Que se passe-t-il ?)
+Indice : C n'a pas d'opérateur d'exponentiation, vous devrez donc multiplier r par
+lui-même deux fois pour calculer r
+3
+.
+
+3. Modifiez le programme du projet 2 pour qu'il demande à l'utilisateur d'entrer le rayon
+de la sphère.
+4. Écrivez un programme qui demande à l'utilisateur d'entrer un montant en dollars et
+en cents, puis affiche le montant avec une taxe de 5% ajoutée :
+Entrez un montant : 100.00
+Avec taxe ajoutée : $105.00
+5. Écrivez un programme qui demande à l'utilisateur d'entrer une valeur pour x, puis
+affiche la valeur du polynôme suivant :
+3x5+2x4
+–5x3
+–x
+2+7x–6
+
+Indice : C n'a pas d'opérateur d'exponentiation, vous devrez donc multiplier x par
+lui-même de manière répétée pour calculer les puissances de x. (Par exemple, x * x
+* x est x au cube).
+6. Modifiez le programme du projet 5 pour que le polynôme soit évalué en utilisant la
+formule suivante :
+((((3x+2)x–5)x–1)x+7)x–6
+Notez que le programme modifié effectue moins de multiplications. Cette technique
+d'évaluation des polynômes est connue sous le nom de règle de Horner.
+7. Écrivez un programme qui demande à l'utilisateur d'entrer un montant en dollars
+américains, puis montre comment payer ce montant en utilisant le plus petit nombre
+de billets de 20$, 10$, 5$ et 1$ :
+
+9
+
+Entrez un montant en dollars : 93
+Billets de 20$ : 4
+Billets de 10$ : 1
+Billets de 5$ : 0
+Billets de 1$ : 3
+Indice : Divisez le montant par 20 pour déterminer le nombre de billets de 20$
+nécessaires, puis réduisez le montant de la valeur totale des billets de 20$. Répétez
+l'opération pour les autres montants de billets. Assurez-vous d'utiliser des valeurs
+entières, pas des nombres à virgule flottante.
+8. Écrivez un programme qui calcule le solde restant d'un prêt après le premier, le
+deuxième et le troisième paiement mensuel :
+Entrez le montant du prêt : 20000.00
+Entrez le taux d'intérêt : 6.0
+Entrez le paiement mensuel : 386.66
+Solde restant après le premier paiement : $19713.34
+Solde restant après le deuxième paiement : $19425.25
+Solde restant après le troisième paiement : $19135.71
+Affichez chaque solde avec deux chiffres après la virgule.
+Indice : Chaque mois, le solde est diminué du montant du paiement, mais augmenté
+du solde multiplié par le taux d'intérêt mensuel. Pour trouver le taux d'intérêt
+mensuel, convertissez le taux d'intérêt entré par l'utilisateur en un pourcentage et
+divisez-le par 12.
