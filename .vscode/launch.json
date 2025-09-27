@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ayamo/Downloads/youcode1/day1",
-      "program": "c:/Users/ayamo/Downloads/youcode1/day1/build/Debug/outDebug",
+      "cwd": "c:/Windows.old/Users/ayamo/Downloads/youcode1/LesMisesEnSituations",
+      "program": "c:/Windows.old/Users/ayamo/Downloads/youcode1/LesMisesEnSituations/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
