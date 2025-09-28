@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -58,7 +57,4 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "C_Cpp.errorSquiggles": "disabled"
-=======
- 
->>>>>>> ec02b8cbd112d6456ae9ee8dcb39110674939bbd
 }

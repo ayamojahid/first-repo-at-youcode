@@ -9,14 +9,14 @@ void MainMenu(){
 
     do
     {
-        printf("1- Ajouter un avion\n");
+    printf("1- Ajouter un avion\n");
     printf("2- Modifier un avion\n");
     printf("3- Supprimer un avion\n");
     printf("4- Afficher un avion\n");
     printf("5- Rechercher un avion\n");
     printf("0- Quitter\n");
     scanf("%d",&choix);
-system("cls");   
+    system("cls");   
 
 
     switch (choix)
