@@ -1,7 +1,6 @@
 #include "header.h"
 
-int main () {
-
+int main(void) {
     MainMenu();
+    return 0;
 }
-
